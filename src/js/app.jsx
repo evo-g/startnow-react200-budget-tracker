@@ -6,9 +6,8 @@ import Summary from './components/Summary';
 export default class App extends React.Component {
   render() {
     return (
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='jumbotron' >
-          <div className='hello'>Hello World</div>
           <h1 className='display-3 text-center'>Budget Tracker</h1>
         </div>
         <div className='row'>
